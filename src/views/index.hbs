@@ -1,0 +1,254 @@
+<div class="jumbotron">
+	<img src="/img/favicon.png" class="rounded mx-auto d-block img-thumbnail" >
+	<br>
+	<h4 class="display-5 text-center">CENTRO EDUCATIVO</h4>
+	<h4 class="display-5 text-center">"ANTONIO BETANCOURT PÉREZ"</h4>
+	
+	<p class="lead text-center">Escuela Preparatoria "Felipe Escalante Ruz"</p>
+	<hr class="my-4">
+	<blockquote class="blockquote">
+		<p class="text-center">INSCRIPCIÓN VIRTUAL A PREPARATORIA</p>
+	</blockquote>
+	<p class="text-center">Para continuar con el proceso de inscripción por favor responde el siguiente formulario.</p>
+
+</div>
+
+
+<form method="POST">
+	<div class="form-group">
+		<div class="container">
+
+			<div class="card">
+				<div class="card-header text-center">DATOS DEL ALUMNO</div>
+				<div class="card-body">
+					<p>Alumno:</p>
+					<div class="row">
+						<div class="col">
+						  <input  type="text" name="apellidoPaterno" id="apellidoPaterno" class="form-control" placeholder="Apellido Paterno" required>
+						</div>
+						<div class="col">
+						  <input type="text" name="apellidoMaterno" class="form-control" placeholder="Apellido Materno" required>
+						  <br>
+						</div>
+						
+						<div class="container">
+							<input  type="text" name="nombres" class="form-control" placeholder="Nombre(s)" required>
+							<br>
+						</div>
+						
+					</div>
+
+					<div class="row">
+						<div class="col">
+							
+							<label>Curso:</label>
+							<select
+								name="curso"
+								id="curso"
+								class="form-control"
+								required>
+								<option value="primero">Primero</option>
+								<option value="segundo">Segundo</option>
+								<option value="tercero">Tercero</option>
+							</select>
+							<br>
+						</div>
+
+						<div class="col">
+							<label>Sexo:</label>
+							<select
+								name="sexo"
+								id="curso"
+								class="form-control"
+								required>
+								<option value="masculino">M</option>
+								<option value="femenino">F</option>
+							</select>
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="col">
+							<label>Fecha de nacimiento:</label>
+							<input  type="text" name="fechaNacimiento" class="form-control" placeholder="03/Agosto/1923" required>
+						</div>
+
+						<div class="col">
+							<label>Escuela de procedencia:</label>
+							<input type="text" name="escuelaProcedencia" class="form-control" placeholder="Nombre de la escuela" required>
+							<br>
+						</div>
+						
+					</div>
+
+					<div class="row">
+						<div class="col">
+						<label>Observaciones:</label>
+						  <input type="text" name="observaciones" class="form-control" placeholder="Alergías, enfermedades, etc.">
+						</div>
+						<div class="col">
+						  <label>e-mail:</label>	
+						  <input type="email" name="emailAlumno" class="form-control" placeholder="name@example.com" required>
+						  <br>
+						</div>
+						
+						<div class="container">
+							<p class="text-danger text-center">NOTA: EL CORREO PROPORCIONADO SE USARÁ PARA REGISTRO A LA PLATAFORMA ESTUDIANTIL Y NO SE PODRÁ CAMBIAR UNA VEZ INSCRITO.</p>
+							<br>
+						</div>
+						
+					</div>
+
+					
+
+					
+
+				</div>	
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="form-group">
+		<div class="container">
+			<div class="card">
+				<div class="card-header text-center">DATOS DE LOS PADRES</div>
+				<div class="card-body">
+					<p>Padre:</p>
+					<div class="row">
+						<div class="col">
+						  <input type="text" name="nombrePadre" class="form-control" placeholder="Nombre completo" required>
+						</div>
+						<div class="col">
+						  <input type="tel" name="numeroPadre" class="form-control" placeholder="Número telefónico">
+						</div>
+					</div>
+
+					<br>
+					<p>Madre:</p>
+					<div class="row">
+						<div class="col">
+						  <input type="text" name="nombreMadre" class="form-control" placeholder="Nombre completo" required>
+						</div>
+						<div class="col">
+						  <input type="tel" name="numeroMadre" class="form-control" placeholder="Número telefónico">
+						</div>
+					</div>
+
+					
+					<br>
+					
+					<p>Estado civil de los padres:</p>
+					<select
+						name="estadoCivil"
+						id="estadoCivil"
+						class="form-control"
+						required>
+						<option value="casados">Casados</option>
+						<option value="divorcionados">Divorciados</option>
+						<option value="otro">Otro</option>
+					</select>
+					
+
+				</div>	
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="form-group">
+		<div class="container">
+			<div class="card">
+				<div class="card-header text-center">DATOS DEL TUTOR</div>
+				<div class="card-body">
+					
+					<p>Nombre del tutor:</p>
+					<div class="row">
+						<div class="col">
+						  <input type="text" name="tutor" class="form-control" placeholder="Nombre completo" required>
+						</div>
+						<div class="col">
+						  <input type="email" name="emailTutor" class="form-control" placeholder="name@example.com" required>
+						</div>
+					</div>
+					
+					<br>
+					<div class="container">
+						<p class="text-danger text-center">NOTA: EL CORREO DEL TUTOR PROPORCIONADO SE USARÁ PARA ENVIAR TODA INFORMACIÓN CORRESPONDIENTE AL ALUMNO Y A LA ESCUELA.</p>
+						<p class="text-danger text-center">NO SE PODRÁ CAMBIAR UNA VEZ INSCRITO.</p>
+						<br>
+					</div>
+
+				</div>	
+				
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="form-group">
+		<div class="container">
+			<div class="card">
+				<div class="card-header text-center">EXTERNO</div>
+				<div class="card-body">
+					
+					<p>Persona externa:</p>
+					<div class="row">
+						<div class="col">
+						  <input type="text" name="externo" class="form-control" placeholder="Nombre completo" required>
+						</div>
+						<div class="col">
+						  <input type="tel" name="numeroExterno" class="form-control" placeholder="Número telefónico" required>
+						</div>
+					</div>
+
+					
+				</div>	
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="form-group">
+		<div class="container">
+			<div class="card">
+				<div class="card-header text-center">EMERGENCIA</div>
+				<div class="card-body">
+					
+					<p>Persona de emergencia:</p>
+					<div class="row">
+						<div class="col">
+						  <input type="text" name="personaEmergencia" class="form-control" placeholder="Nombre completo" required>
+						</div>
+						<div class="col">
+						  <input type="tel" name="numeroEmergencia" class="form-control" placeholder="Número telefónico" required>
+						</div>
+					</div>
+
+					
+				</div>	
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="container">
+			<p class="text-center">
+				<button class="btn btn-primary btn-lg">ENVIAR</button>
+			</p>
+		</div>
+	</div>
+
+</form>
+
+
+<script>
+	document.getElementById('apellidoPaterno').focus();
+</script>
