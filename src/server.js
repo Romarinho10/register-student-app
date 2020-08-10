@@ -34,7 +34,7 @@ app.set('view engine', '.hbs');
 
 
 //middlewares
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({extended: false}));
 
 //routes
